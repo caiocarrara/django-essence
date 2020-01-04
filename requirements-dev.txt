@@ -1,0 +1,6 @@
+django>=2,<=3
+freezegun
+mixer
+pytest
+pytest-cov
+pytest-django
