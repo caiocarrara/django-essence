@@ -11,7 +11,7 @@ clean-pyc:
 	find . -name '*~' -exec rm -f {} +
 	find . -name '__pycache__' -exec rm -fr {} +
 
-dist: clean
+build: clean
 	python setup.py bdist_wheel --universal
 
 install:
