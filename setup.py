@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="eu@caiocarrara.com.br",
     description="Django reusable app with generic and essencial resources.",
     long_description=long_description,
-    url="https://github.com/cacarrara/django-essence",
+    url="https://github.com/caiocarrara/django-essence",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
